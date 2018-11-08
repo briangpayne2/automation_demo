@@ -8,4 +8,14 @@ public class Constraints {
 	 * These include data file paths, device farm URLs, API tokens, etc..
 	 */
 	
+	public String screenshot_path() { 
+		String screenshot_path = "/Users/brianpayne/eclipse-workspace/santander/screenshots/";
+		return screenshot_path;
+	}
+	
+	public String extent_path() {
+		String extent_path = System.getProperty("user.dir")+"/extent-reports/";
+		return extent_path;
+	}
+	
 }
